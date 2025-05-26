@@ -1,0 +1,24 @@
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs and runtime files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/workspace configs
+.vscode/
+.idea/
+
+# OS metadata
+*.swp

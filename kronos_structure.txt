@@ -1,0 +1,44 @@
+.
+├── gui
+│   ├── __init__.py
+│   ├── crawler_gui.py
+│   ├── main_gui.py
+│   └── sqli_gui.py
+├── main.py
+├── modules
+│   ├── __init__.py
+│   ├── crawler
+│   │   ├── __init__.py
+│   │   ├── auth_manager.py
+│   │   └── crawler.py
+│   ├── notifications
+│   │   ├── __init__.py
+│   │   └── sqli_alerts.py
+│   └── sqli
+│       ├── __init__.py
+│       ├── auth_scanner
+│       │   ├── __init__.py
+│       │   ├── auth_baseline.py
+│       │   ├── auth_scanner.py
+│       │   └── auth_session.py
+│       ├── baseline.py
+│       ├── config.py
+│       ├── detection
+│       │   ├── behavior_detection.py
+│       │   ├── boolean_detection.py
+│       │   ├── detection_manager.py
+│       │   ├── error_detection.py
+│       │   ├── oob_detection.py
+│       │   └── time_detection.py
+│       ├── eta.py
+│       ├── injection.py
+│       ├── payload_manager.py
+│       ├── reporting.py
+│       ├── scanner.py
+│       ├── timing_analysis.py
+│       └── utils.py
+└── payloads
+    ├── hidden_pages
+    └── sqli_payloads
+
+11 directories, 31 files

@@ -1,0 +1,8 @@
+admin
+dashboard
+login
+secret
+config
+settings
+score-board
+administration
