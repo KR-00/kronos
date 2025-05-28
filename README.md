@@ -129,7 +129,7 @@ docker stop $(docker ps -q)
 
 We will be using pre-built images for the following applications:
 
-**OWASP Juice Shop**
+**OWASP Juice Shop** (The scan takes longer due to heavy use of javascript, pop ups and more)
 
 **DVWA (Damn Vulnerable Web Application)**
 
