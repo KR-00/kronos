@@ -100,7 +100,7 @@ python3 main.py
 
 ### 4. Download Docker
 
-Kronos uses Docker to run vulnerable test environments such as OWASP Juice Shop, DVWA, and Mutillidae II. 
+Kronos was tested on vulnerable web applications such as OWASP Juice Shop, DVWA, and Mutillidae II. 
 
 To download Docker in the terminal run:
 
@@ -178,6 +178,19 @@ Once Kronos is running, use the GUI to:
 - Choose a payload category or load a custom payload list
 - Start scanning
 - (Optional) Enable email alerts for anomaly detection (Requires gmail app password)
+
+## Testing
+
+During testing, Kronos was used to scan selected pages from the following vulnerable applications:
+
+OWASP Juice Shop
+**/#/login: Login page tested for authentication bypass via SQLi**
+
+Damn Vulnerable Web Application (DVWA)
+**/vulnerabilities/sqli/: Classic SQL Injection test page (Using Authenticated Scanning with credentials: admin:password)**
+
+Mutillidae II
+**index.php?page=login.php: Login form scanned for classic SQLi**
 
 ## License
 
