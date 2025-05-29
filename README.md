@@ -183,14 +183,16 @@ Once Kronos is running, use the GUI to:
 
 During testing, Kronos was used to scan selected pages from the following vulnerable applications:
 
-OWASP Juice Shop
-**/#/login: Login page tested for authentication bypass via SQLi**
 
-Damn Vulnerable Web Application (DVWA)
-**/vulnerabilities/sqli/: Classic SQL Injection test page (Using Authenticated Scanning with credentials: admin:password)**
+- **OWASP Juice Shop**  
+  `/#/login`: Login page tested for authentication bypass via SQLi
 
-Mutillidae II
-**index.php?page=login.php: Login form scanned for classic SQLi**
+- **Damn Vulnerable Web Application (DVWA)**  
+  `/vulnerabilities/sqli/`: Classic SQL Injection test page  
+  *(Authenticated scan using credentials: admin:password)*
+
+- **Mutillidae II**  
+  `index.php?page=login.php`: Login form scanned for classic SQLi
 
 ## License
 
